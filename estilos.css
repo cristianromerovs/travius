@@ -1,0 +1,1151 @@
+/*Colores
+    Verde: #27ad4d
+    Verde2: #40b35e
+    Gris txt #535353
+    Gris claro: #acacac
+    calipso: #359ba5
+    calipsoClaro: #3a9eaa
+    calipsoOscuro #2f7881
+*/
+body{
+    background-color: rgb(243, 243, 243) !important;
+    height: 100%;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.alwaysHide{
+    display: none;
+}
+
+
+/* NAVBAR 1 */
+
+.navSmall{
+    padding: 0px;
+    margin: 0px;
+    background-color: #27ad4d;
+    color: #fff;
+    height: 35px;
+    width: 100%;
+    font-weight: 100;
+}
+
+.navSmall img{
+    width: 17px;
+    margin-right: 5px;
+}
+
+.paddL{
+    padding-left: 20px;
+}
+
+.paddL img{
+    width: 20px;
+    padding: 0px 0px 1px 0px;
+    margin: 0px;
+}
+
+ion-icon{
+    padding: 0 !important;
+    margin: 0px !important;
+    width: 15px;
+}
+
+.navSmall p{
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.navSmall select{
+    background-color: #27ad4d;
+    color: #fff;
+    border: none;
+    font-weight: 100;
+}
+
+.lang{
+    display: inline;
+    float: right;
+}
+
+/* NAVBAR MAIN */
+
+.selectedNav{
+    position: relative;
+}
+
+.igNav{
+    padding-left: 20px !important;
+}
+
+.selectedNav::after{
+    position: absolute;
+    content: url(img/underLine.png);
+    bottom: -4px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 35%;
+}
+
+.navbar{
+    padding: 20px 0px 20px 0px !important;
+    font-weight: 400;
+}
+
+.navbar ul{
+    padding-left: 270px !important;
+}
+
+.navbar li{
+    padding-right: 20px !important;
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+
+.navbar-brand{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* CAROUSEL / SLIDER */
+.carousel{
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: -100px !important;
+    z-index: 10;
+    width: 60%;
+    height: 393px;
+    background: rgba(0,0,0,0.2);
+    transform: skew(200.25deg);
+}
+
+.carousel-caption{
+    display: flex;
+    text-align: left !important;
+    top: 30%;
+}
+
+.carousel-caption h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.carousel-caption h5{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1 !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("left-arrow.svg") !important;
+    height: 25px !important;
+}
+
+.carousel-control-prev{
+    z-index: 99 !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("right-arrow.svg") !important;
+    height: 25px !important;
+}
+
+.sliderButton{
+    margin-top: 15px;
+    background-color: #27ad4d;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+/* ABOUT SECTION */
+
+.bg-primary {
+    background-image: url("img/fondo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.aboutH2{
+    color: #27ad4d;
+    padding: 30px 0 20px 0;
+    max-width: 100%;
+}
+
+.aboutH2 h2{
+    font-weight: 700;
+}
+
+.aboutText{
+    display: block !important;
+    text-align: center;
+    color: #656565;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.aboutText p{
+    padding: 0;
+    margin: 0;
+}
+
+.vl {
+    border-left: 1.5px solid #acacac;
+    height: 250px;
+  }
+
+.pSmallGreen{
+    padding: 20px 0 20px 0;
+    font-size: 17px;
+    color: #40b35e;
+}
+.downloads a{
+    display: block !important;
+    padding: 20px 0 20px 0;
+}
+
+.greenLine{
+    background-color: #27ad4d;
+    width: 8%;
+    height: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.greyLine{
+    width: 80%;
+    background: #acacac;
+    height: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.areas{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #fdfdfd;
+}
+
+.areas p{
+    color: #656565;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.areas h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #359ba5 !important;
+}
+
+
+.valoresResponsive{
+    background-image: url("img/valores.png");
+    color: #fff;
+    padding-bottom: 23px !important;
+}
+
+.valoresResponsive img{
+    width: 50px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 160px;
+}
+
+.fortalezasResponsive img{
+    width: 50px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 160px;
+}
+
+.valoresResponsive h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.valoresResponsive p{
+    padding-left: 80px;
+}
+
+.fortalezasResponsive p{
+    padding-left: 80px;
+}
+
+.fortalezasResponsive h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.fortalezasResponsive{
+    width: 100%;
+    height: auto;
+    background-image: url("img/fortalezas.png");
+    color: #fff;
+    padding-bottom: 23px !important;
+}
+
+.nopadding{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.valoresFort{
+    background-image: url("img/valoresfortalezas.png");
+    height: auto;
+    margin: 0 !important;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.whiteHr{ 
+    border: none;
+    border-left: 2.5px solid white;
+    margin-top: 150px;
+    margin-left:4px;
+    height: 300px;     
+}
+
+.centeredVal h4{
+    font-weight: 900 !important;
+}
+
+.centeredVal{
+    padding: 80px 0px 80px 350px !important;
+    letter-spacing: 1px;
+}
+
+.centeredVal p{
+    padding: 0;
+    margin: 0px 0px 15px 0px !important;
+    font-weight: 700 !important;
+}
+
+.varHr{
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+    width: 18%;
+    border: 1.5px solid #fff;
+}
+
+.logoValores{
+    padding-left: 110px;
+    padding-bottom: 30px;
+}
+
+.logoValores img{
+    height: 55px;
+}
+
+/* SERVICIOS */
+
+.serviciosCards img{
+    height: auto;
+    width: 90%;
+    z-index: 0;
+    position: relative;
+}
+
+.serviciosCards{
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    text-align: center;
+}
+  
+  /* HERRAMIENTAS */
+
+.greenRow{
+    background-color: #27ad4d;
+    color: #fff;
+    height: 45px;
+    width: auto;
+    padding: 0;
+    margin: 0px 0px 30px 0px;
+}
+
+.greenRow h5{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.herramientasCards img{
+    height: auto;
+    width: 60%;
+    z-index: 0;
+    position: relative;
+}
+
+.herramientasCards{
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+.herramientasCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+}
+
+/* CONTACTO */
+.footer{
+    background-color: #3a9eaa;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.footer img{
+    padding: 20px 0px 20px 0px;
+}
+
+.footer h5{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.footer2{
+    background-color: #2f7881;
+    color: #fff;
+    padding: 0px 0px 50px 0px;
+}
+
+#valparaiso{
+    display: block;
+}
+
+#santiago{
+    display: none;
+}
+
+.valparaiso-btn{
+    padding: 0 !important;
+    position: relative;
+}
+
+.santiago-btn{
+    padding: 0 !important;
+    position: relative;
+}
+
+.valparaiso-btn::after{
+    position: absolute;
+    content: url(img/arrowDown.png);
+    bottom: -35%;
+    margin: 0 auto;
+    left: 76%;
+}
+
+.santiago-btn::after{
+    position: absolute;
+    content: url(img/arrowDown.png);
+    bottom: -35%;
+    margin: 0 auto;
+    right: 76%;
+}
+
+.logoFooter img{
+    padding-top: 35px;
+    width: 90%;
+}
+
+.valparaiso-btn button{
+    background-color: #3a9eaa;
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    border-right: thin;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-color: #fff !important;
+    border-width: 2px;
+    border-image: none;
+    transition: all 0.5s ease;
+}
+
+.valparaiso-btn button:active{
+    outline: none;
+}
+
+.valparaiso-btn button:focus{
+    outline: none;
+}
+
+.santiago-btn button:active{
+    outline: none;
+}
+
+.santiago-btn button:focus{
+    outline: none;
+}
+
+.santiago-btn button{
+    background-color: #3a9eaa;
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    border-style: solid;
+    border-top: none;
+    border-left: thin;
+    border-right: none;
+    border-color: #fff !important;
+    border-width: 2px;
+    border-image: none;
+}
+
+.direccion{
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    color: #fff;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.caption{
+    display: block;
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.captionSmall{
+    padding-top: 4px;
+    display: block;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.mapForm{
+    text-align: center;
+}
+
+.formulario{
+    padding-left:50px !important;
+}
+
+.map{
+    padding-left: 50px !important;
+}
+
+.captionForm{
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    font-weight: 900;
+}
+
+.captionForm2{
+    font-size: 10px;
+    display: block;
+    text-align: left;
+    font-weight: 200;
+}
+
+.formContact{
+    display: block;
+}
+
+.formContact input{
+    display: block;
+}
+
+.formContact input{
+    background-color: #fff;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3CA2AD;
+    margin: 10px 0px 10px 0px;
+    font-weight: 200;
+    padding-left: 30px;
+    color: #595959;
+}
+
+.formContact input::placeholder{
+    font-size: 11px;
+    font-weight: 200;
+    color: #595959;
+}
+
+.formContact input[type=submit]{
+    padding: 0px;
+}
+
+.submitBtn{
+    margin-top: 25px;
+    width: 30%;
+    text-align: center;
+    font-size: 12px;
+    color: #3CA2AD;
+    text-align: center;
+}
+
+.txtArea{
+    height: 113px;
+}
+
+
+/* FOOTER */
+
+.footerIMG{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background-image: url("img/footer.png");
+    height: auto;
+    margin: 0 !important;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.tleft{
+    text-align: left;
+}
+
+.footerSmall{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 200;
+    background-color: #595959;
+    color: #fff;
+    height: 70px;
+    width: 100%;
+    border-top: 2px solid #fff;
+}
+
+/* MEDIA QUERYS */
+
+/* (320x568) iPhone SE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .navbar-brand img {
+        margin-left: 0px !important;
+        height: 79px;
+    }
+}
+
+/* (320x480) iPhone (Original, 3G, 3GS) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .navSmall img{
+        width: 17px;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .paddL {
+        padding-left: 0px;
+        font-size: 10px;
+    }
+
+    .navSmall{
+        font-size: 11px !important;
+    }
+
+    .navbar ul {
+        font-size: 13px;
+    }
+
+    .navbar-brand img {
+        margin-left: 0px !important;
+        height: 60px;
+        width: 150px;
+    }
+
+    .aboutH2 h2 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .hide{
+        display: none;
+    }
+
+    .vl{
+        display: none !important;
+    }
+
+    .herramientasCards img{
+        margin-bottom: 10px;
+    }
+
+    .navSmall{
+        font-size: 13px;
+    }
+
+    .caption{
+        font-size: 13px;
+    }
+
+    .navbar ul{
+        padding-left: 0px !important;
+    }
+
+    .valoresFort{
+        display: none !important;
+    }
+
+    .navbar-brand img{
+        margin-left: 90px !important;
+    }
+
+    .navSmall img{
+        width: 10px;
+    }
+    
+    ion-icon{
+        padding: 0 !important;
+        margin: 0px !important;
+        width: 10px;
+    }
+
+    .paddL{
+        padding-left: 5px;
+    }
+
+    .alwaysHide{
+        display: initial;
+    }
+
+    .valparaiso-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        left: 35% !important;
+    }
+    
+    .santiago-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        right: 35% !important;
+    }
+
+    .valparaiso-btn button{
+        font-size: 13px;
+    }
+
+    .santiago-btn button{
+        font-size: 13px;
+    }
+
+    .valoresResponsive h4 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .valoresResponsive p {
+        padding-left: 75px;
+        font-size: 13px;
+    }
+
+    .fortalezasResponsive h4 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .fortalezasResponsive p {
+        padding-left: 75px;
+        font-size: 13px;
+    }
+
+}
+ 
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    /* insert styles here */
+}
+ 
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    /* insert styles here */
+}
+
+/* (360x640) */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+    .valparaiso-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        left: 35% !important;
+    }
+    
+    .santiago-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        right: 35% !important;
+    }
+
+    .valparaiso-btn button{
+        font-size: 13px;
+    }
+
+    .santiago-btn button{
+        font-size: 13px;
+    }
+}
+ 
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    .navSmall img{
+        width: 17px;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    
+    .valparaiso-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        left: 40% !important;
+    }
+    
+    .santiago-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        right: 40% !important;
+    }
+
+    .valparaiso-btn button{
+        font-size: 15px;
+    }
+
+    .santiago-btn button{
+        font-size: 15px;
+    }
+}
+ 
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    .hide{
+        display: none;
+    }
+
+    .vl{
+        display: none !important;
+    }
+
+    .herramientasCards img{
+        margin-bottom: 10px;
+    }
+
+    .navSmall{
+        font-size: 13px;
+    }
+
+    .caption{
+        font-size: 13px;
+    }
+
+    .navbar ul{
+        padding-left: 0px !important;
+    }
+
+    .valoresFort{
+        display: none !important;
+    }
+
+    .navbar-brand img{
+        margin-left: 90px !important;
+    }
+
+    .navSmall img{
+        width: 10px;
+    }
+    
+    ion-icon{
+        padding: 0 !important;
+        margin: 0px !important;
+        width: 10px;
+    }
+
+    .paddL{
+        padding-left: 5px;
+    }
+
+    .alwaysHide{
+        display: initial;
+    }
+
+}
+ 
+/* (720x1280) Galaxy Nexus, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+}
+ 
+/* (720x1280) Galaxy Nexus, Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    .navbar ul{
+        padding-left: 200px !important;
+    }
+}
+ 
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .navbar ul{
+        padding-left: 200px !important;
+    }
+}
+ 
+/* (768x1024) iPad 1 & 2, Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .navbar ul{
+        padding-left: 200px !important;
+    }
+}
+ 
+/* (1024x768) iPad 1 & 2, Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .navbar ul{
+        padding-left: 200px !important;
+    }
+}
+ 
+/* (2048x1536) iPad 3 */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+    /* insert styles here */
+}
+ 
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .navbar ul{
+        padding-left: 50px !important;
+        padding-top: 30px;
+    }
+
+    .navbar-brand img {
+        margin-left: 200px !important;
+    }
+}
+ 
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+    .valparaiso-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        left: 66%;
+    }
+    
+    
+    .santiago-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        right: 66%;
+    }
+
+    .centeredVal{
+        padding: 80px 0px 80px 200px !important;
+        letter-spacing: 1px;
+    }
+    
+    .centeredVal p{
+        padding: 0;
+        margin: 0px 0px 15px 0px !important;
+        font-weight: 700 !important;
+    }
+
+    .carousel-caption h2{
+        margin-left: 0px !important;
+    }
+    
+    .carousel-caption h5{
+        margin-left: 0px !important;
+    }
+    
+    .sliderButton{
+        margin-left: 0px !important;
+    }
+}
+ 
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    .carousel-caption h2{
+        font-size: 25px !important;
+    }
+    
+    .carousel-caption h5{
+        font-size: 15px !important;
+    }
+    
+    .sliderButton{
+        height: 45px;
+    }
+
+    .navbar-brand img {
+        margin-left: 30px !important;
+    }
+
+    .navSmall{
+        padding-left: 70px !important;
+    }
+}
+ 
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    .valparaiso-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        left: 68%;
+    }
+    
+    
+    .santiago-btn::after{
+        position: absolute;
+        content: url(img/arrowDown.png);
+        bottom: -35%;
+        margin: 0 auto;
+        right: 68%;
+    }
+
+    .centeredVal{
+        padding: 80px 0px 80px 210px !important;
+        letter-spacing: 1px;
+    }
+    
+    .centeredVal p{
+        padding: 0;
+        margin: 0px 0px 15px 0px !important;
+        font-weight: 700 !important;
+    }
+    .carousel-caption h2{
+        margin-left: 0px !important;
+    }
+    
+    .carousel-caption h5{
+        margin-left: 0px !important;
+    }
+    
+    .sliderButton{
+        margin-left: 0px !important;
+    }
+}
+ 
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+    .carousel-caption h2{
+        margin-left: 40px !important;
+    }
+    
+    .carousel-caption h5{
+        margin-left: 40px !important;
+    }
+    
+    .sliderButton{
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption h2{
+        margin-left: 0px !important;
+    }
+    
+    .carousel-caption h5{
+        margin-left: 0px !important;
+    }
+    
+    .sliderButton{
+        margin-left: 0px !important;
+    }
+}
+ 
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: -100px !important;
+        z-index: 10;
+        width: 60%;
+        height: 507px;
+        background: rgba(0,0,0,0.2);
+        transform: skew(200.25deg);
+    }
+    .carousel-caption h2{
+        margin-left: 100px;
+    }
+    
+    .carousel-caption h5{
+        margin-left: 100px;
+    }
+    
+    .sliderButton{
+        margin-left: 100px;
+    }
+}
+ 
+/* (1600x900) HD+ Display */
+@media  screen and (max-width: 1600px) {
+    /* insert styles here */
+}
+  
+    
